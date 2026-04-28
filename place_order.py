@@ -10,9 +10,7 @@ from external.db import (
     Order,
     OrderItem,
 )
-
-
-VAT_RATE = 0.19
+from domain.vat import VAT_RATE
 
 
 @dataclass

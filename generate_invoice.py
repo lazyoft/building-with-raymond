@@ -9,9 +9,7 @@ from external.db import (
     Invoice,
     InvoiceLine,
 )
-
-
-VAT_RATE = 0.19
+from domain.vat import VAT_RATE
 
 
 def generate_invoice(order_id: str) -> Invoice:

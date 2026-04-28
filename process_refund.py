@@ -11,9 +11,7 @@ from external.db import (
     Refund,
     RefundLineItem,
 )
-
-
-VAT_RATE = 0.19
+from domain.vat import VAT_RATE
 
 
 @dataclass
